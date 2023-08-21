@@ -1,0 +1,5 @@
+1. how the board will be drawn: 
+	our UI classes can read in the number of tanks, and the BattleField class will generate a 10 * 10 grid with fog using 2D array, then it will put tanks of read in number onto the grid randomly and implictily.
+
+2. how the user's move is handled:
+	our UI classes can read in the users input of postion, which is a string, the first character is a letter represents row, the second is a number represents column. Then the BattleField class will change the status of corresponding position in its 10 * 10 grid.
